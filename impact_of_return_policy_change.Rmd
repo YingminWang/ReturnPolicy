@@ -63,7 +63,7 @@ options(scipen=9)
 # On store level, if return policy changes, sales value has insignificant impact;
 #                                           sales quantity has insignificant impact.
 #                                           return value will decrease by 20%;
-#                                           return quantity will decrease by 12%. 
+#                                           return quantity will decrease by 12%. (return more high price products)
 # On product level, if return policy changes, sales value of pc7 - Gold Earrings will decrease by 88%;
 #                                             sales quantity of pc7 - Gold Earrings will decrease by 94%;
 #                                             sales quantity of pc17 - Events will increase by 123%; 
@@ -76,9 +76,9 @@ options(scipen=9)
 
 ```{r Physical BM Store}
 # On store level, if return policy changes, sales value will decrease by 10%;
-#                                           sales quantitity will decrease by 6%.
+#                                           sales quantitity will decrease by 6%.(sell less high price products)
 #                                           return value will decrease by 55%;
-#                                           return quantity will decrease by 16%.
+#                                           return quantity will decrease by 16%.(return more high price products)
 # On product level, if retrun policy changes, sales value of pc5 - Semi Precious will decrease by 9%;
 #                                             sales value of pc6 - Mens will decrease by 28%;
 #                                             sales value of pc7 - Gold Earrings will decrease by 58%;
